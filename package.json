@@ -1,0 +1,42 @@
+{
+	"name": "@bracketed/decompression-types",
+	"version": "1.0.0",
+	"packageManager": "yarn@4.0.2",
+	"author": "bracketed",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bracketed/decompression-types.git",
+		"directory": "."
+	},
+	"bugs": {
+		"url": "https://github.com/bracketed/decompression-types/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"homepage": "https://bracketed.co.uk",
+	"sideEffects": false,
+	"devDependencies": {
+		"@bracketed/typescript-config": "^4.4.0",
+		"@types/concat-stream": "^2",
+		"@types/node": "^20.10.5",
+		"@types/tar-stream": "^3",
+		"@types/unbzip2-stream": "^1",
+		"@types/yauzl": "^2",
+		"prettier": "^3.1.1",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"concat-stream": "^2.0.0",
+		"file-type": "^18.7.0",
+		"get-stream": "^8.0.1",
+		"is-stream": "^3.0.0",
+		"pify": "^6.1.0",
+		"tar-stream": "^3.1.6",
+		"unbzip2-stream": "^1.4.3",
+		"yauzl": "^2.10.0"
+	}
+}
