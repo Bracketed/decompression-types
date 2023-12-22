@@ -17,6 +17,9 @@
 	"publishConfig": {
 		"access": "public"
 	},
+	"scripts": {
+		"compile": "yarn tsc"
+	},
 	"homepage": "https://bracketed.co.uk",
 	"sideEffects": false,
 	"devDependencies": {
